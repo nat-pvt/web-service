@@ -1,0 +1,27 @@
+{
+  "name": "posts-api",
+  "version": "1.0.0",
+  "description": "API REST de posts en mémoire avec Koa",
+  "homepage": "https://github.com/nat-pvt/web-service#readme",
+  "bugs": {
+    "url": "https://github.com/nat-pvt/web-service/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nat-pvt/web-service.git"
+  },
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "node recette.js"
+  },
+  "dependencies": {
+    "@koa/router": "^15.7.1",
+    "joi": "^18.3.2",
+    "koa": "^3.3.0",
+    "koa-bodyparser": "^4.4.1",
+    "nodemon": "^3.1.14"
+  }
+}
